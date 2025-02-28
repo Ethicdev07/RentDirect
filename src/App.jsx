@@ -1,13 +1,13 @@
-
-import './App.css'
+import './App.css';
+import HomePage from './pages/HomePage';
 
 function App() {
-
   return (
     <>
-      <h1 className='text-red-600 text-[2rem]'>Hello world</h1>
+      <HomePage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
